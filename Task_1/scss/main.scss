@@ -1,1 +1,29 @@
 // v tomto úkolu použij CSS proměnné
+
+:root {
+--gold: #FFDA69;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+.centered-text {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  background: var(--gold);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+width: 100px;
+font-size: 3rem;
+}

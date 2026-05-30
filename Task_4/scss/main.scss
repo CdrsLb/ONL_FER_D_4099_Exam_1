@@ -2,23 +2,60 @@
 // aby šel tento příklad vyřešit,
 // musíš si do HTML doplnit nějaké další prvky
 
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+.page {
+display: flex;
+width: 100vw;
+height: 100vh;
+}
+
 .nav {
+  width: 20vw;
+  padding: 15px;
   background: #d3e6d2;
 }
 
+.hero {
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
 .header {
+  height: 20vh;
+  padding: 15px;
   background: #9bce0b;
 }
 
+.main {
+display: flex;
+flex: 1;
+}
+
 .article {
+  flex: 1;
+  padding: 15px;
   background: white;
 }
 
 .aside {
+  width: 20vw;
+  height: 100%;
+  padding: 15px;
   background: #f7f5d8;
 }
 
 .footer {
+  height: 20vh;
+  width: 60vw;
   background: #9bce0b;
 }
+
 
